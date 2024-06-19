@@ -5,6 +5,11 @@
   --light-color: #ebeef6;
   --red-color: #f1352b;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .fs-8 {
   font-size: 11px;
   font-weight: 500;
@@ -463,4 +468,103 @@
 }
 .products-banner-img-2 {
   background-image: url("../img/home/banner/redmi-mobile-banner.png") !important;
+}
+.w-50p {
+  width: 50px;
+}
+.h-50p {
+  height: 50px;
+}
+.p-cate-text {
+  width: 138px;
+}
+.cate-ul {
+  list-style: none;
+}
+.cate-img-wrapper {
+  width: 100%;
+  height: 195px;
+  object-fit: cover;
+}
+.close-icon {
+  font-size: 10px !important;
+  padding: 4px 5px 5px 5px;
+}
+.text-heading {
+  width: 100%;
+  height: 70px !important;
+  /* white-space: nowrap; */
+}
+.top-content-categories {
+  height: 70px;
+}
+/* range slider */
+
+.range_container {
+  --_marker-border-clr: var(--main-color);
+  --_marker-size: 15px;
+  --_track-heigt: 3px;
+
+  --_tooltip-bg-clr: rgba(0, 0, 0, 0.4);
+  --_tooltip-txt-clr: var(--_marker-border-clr);
+
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sliders_control {
+  position: relative;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: var(--_marker-size);
+  height: var(--_marker-size);
+  background-color: var(--_marker-border-clr);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--_marker-border-clr);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  pointer-events: all;
+  width: var(--_marker-size);
+  height: var(--_marker-size);
+  background-color: var(--_marker-border-clr);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--_marker-border-clr);
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #f7f7f7;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: inset 0 0 3px var(--main-color), 0 0 9px var(--main-color);
+  -webkit-box-shadow: inset 0 0 3px var(--main-color), 0 0 9px var(--main-color);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: var(--_track-heigt);
+  width: 100%;
+  position: absolute;
+  background-color: var(--_marker-border-clr);
+  pointer-events: none;
+}
+
+#fromSlider {
+  height: 0;
+  z-index: 1;
+}
+/* range slider end */
+.dashed {
+  width: 20px;
+  height: 2px;
+  background-color: var(--dark-color);
 }
