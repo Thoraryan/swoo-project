@@ -496,7 +496,7 @@
   /* white-space: nowrap; */
 }
 .top-content-categories {
-  height: 70px;
+  height: 56px;
 }
 /* range slider */
 
@@ -567,4 +567,27 @@ input[type="range"] {
   width: 20px;
   height: 2px;
   background-color: var(--dark-color);
+}
+.color-picker {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+.bg-brown {
+  background: rgba(164, 42, 42, 1);
+}
+.bg-gray {
+  background: rgba(47, 85, 123, 1);
+}
+.bg-light-blue {
+  background: rgba(67, 154, 187, 1);
+}
+.bg-slate {
+  background: rgba(105, 105, 105, 1);
+}
+.product-bg-img {
+  background-image: url("../img/home/brands/cam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
