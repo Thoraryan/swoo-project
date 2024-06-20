@@ -609,3 +609,56 @@ input[type="range"] {
 .about-title-banner img {
   margin-top: -692px;
 }
+.about-tabel tbody {
+  vertical-align: sub !important;
+}
+.about-tabel tbody tr th,
+.about-tabel tbody tr td {
+  padding: 3.233px 0px;
+}
+.about-user-img img {
+  height: 320px !important;
+}
+.s-p-small-img {
+  height: 88.8px;
+  width: 88.8px;
+}
+.border-custom,
+.border-custom:hover {
+  border: 1px solid var(--main-color);
+}
+.s-p-img-select {
+  width: 45.03px;
+  height: 35px;
+}
+.pro-aff-img {
+  width: 45px;
+  height: 20px;
+}
+.buy-paypal,
+.buy-paypal:hover {
+  color: var(--dark-color);
+  text-transform: uppercase;
+  background: rgba(246, 171, 74, 1);
+}
+.s-p-add-product::after {
+  content: "+";
+  position: absolute;
+  right: -21px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 37%;
+  font-size: 22px;
+  background-color: var(--light-color);
+  font-weight: 900;
+  border-radius: 50%;
+}
+.product-banner {
+  height: 400px;
+}
+.h-custom-p {
+  height: 400px;
+}
