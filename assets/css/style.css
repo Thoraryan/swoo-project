@@ -662,3 +662,10 @@ input[type="range"] {
 .h-custom-p {
   height: 400px;
 }
+.pay-card-img {
+  width: 70px;
+  height: 70px;
+}
+.vertical-middle {
+  vertical-align: middle !important;
+}
