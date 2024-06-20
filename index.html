@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>SWOO</title>
 </head>
 
@@ -22,15 +23,40 @@
             <div class="container">
                 <div class="middle-header-wrapper">
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-4 mt-4 mt-lg-0">
                             <div class="logo-wrapper">
                                 <img src="./assets/img/home/header/logo.png" alt="" class="">
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="seach-wrapper w-75">
+                        <div class="col-8 d-lg-none d-md-none d-block">
+                            <div class="row">
+                                <div class="col-8 px-0">
+                                    <div class="d-flex align-items-center mt-3">
+                                        <div class="cart-icon-wrapper">
+                                            <i class="fa fa-shopping-cart text-m-color"></i>
+                                        </div>
+                                        <div class="mx-3">
+                                            <p class="fs-8 mb-0">Hotline 24/7</p>
+                                            <h5 class="text-m-color fs-8 mt-0 mb-0">(025) 3686 25 16</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex align-items-center justify-content-between mt-3 mt-lg-0">
+                                        <div class="dot-icon px-0">
+                                            <i class="fa fa-heart-o fs-3 text-dark"></i>
+                                        </div>
+                                        <div class="cart-icon-wrapper-2 bg-custom px-0">
+                                            <span class="text-w fs-5">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                            <div class="seach-wrapper w-75 w-sm-100">
                                 <div class="input-group custom-input-group">
-                                    <div class="input-group-append">
+                                    <div class="input-group-append ">
                                         <select class="form-select custom-select-radius bg-custom-light">
                                             <option>All Categories</option>
                                             <option value="1">Option 1</option>
@@ -47,7 +73,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 mt-4 mt-lg-0">
                             <div class="row">
                                 <div class="col-8">
                                     <div class="d-flex align-items-center ">
@@ -61,7 +87,7 @@
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-between mt-3 mt-lg-0">
                                         <div class="dot-icon">
                                             <i class="fa fa-heart-o fs-3 text-dark"></i>
                                         </div>
@@ -147,11 +173,136 @@
     </header>
     <section class="popular-categories mt-4">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
                 <h5 class="fs-5">Popular Categories</h5>
                 <a class="text-decoration-none text-custom-dark">View All</a>
             </div>
-            <div class="d-flex align-items-center mt-4 gap-4">
+            <div class="owl-slider mt-4">
+                <div id="carousel" class="owl-carousel">
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/gaming.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Gaming</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Sport.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Sport Equip</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Kitchen.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Kitchen</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Robot.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Robot Cleaner</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Mobiles.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Mobiles</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Office.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Office</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Cameras.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Cameras</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Computers.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Computers</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Televisions.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Televisions</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Audios.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Audios</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/gaming.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Gaming</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Sport.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Sport Equip</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Kitchen.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Kitchen</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Robot.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Robot Cleaner</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Mobiles.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Mobiles</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Office.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Office</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Cameras.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Cameras</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Computers.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Computers</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Televisions.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Televisions</p>
+                    </div>
+                    <div class="card border-0 item">
+                        <div class="categories-card">
+                            <img src="./assets/img/home/categories/Audios.png" alt="" class="">
+                        </div>
+                        <p class="text-dark text-center mt-2 fs-7">Audios</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="d-flex align-items-center mt-4 gap-3 justify-content-center flex-wrap">
                 <div class="card border-0">
                     <div class="categories-card">
                         <img src="./assets/img/home/categories/gaming.png" alt="" class="">
@@ -212,15 +363,15 @@
                     </div>
                     <p class="text-dark text-center mt-2 fs-7">Audios</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="banner-wrapper mt-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-12 mt-lg-0 mt-4">
                     <div class="banner-1 rounded-4">
-                        <div class="w-50 h-100 d-flex justify-content-end align-items-center">
+                        <div class="w-50 px-4 h-100 d-flex justify-content-end align-items-center">
                             <div class="">
                                 <p class="banner-text-1 text-w">
                                     EKO 40" Android
@@ -235,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-12 mt-lg-0 mt-4">
                     <div class="banner-2 rounded-1">
                         <h3 class="text-w fw-semibold text-center pt-4">Humidifying Fan</h3>
                         <div class="w-100 h-75 d-flex justify-content-center align-items-end">
@@ -245,9 +396,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 mb-5">
-                    <div class="banner-3 rounded-1">
-                        <div class="w-50 h-100">
+                <div class="col-lg-6 col-12 mt-4 mb-lg-5">
+                    <div class="banner-3 rounded-1 w-100">
+                        <div class="w-50 px-4 h-100">
                             <div class="d-flex w-75 h-100 align-items-center justify-content-center">
                                 <div class="">
                                     <h5 class="">
@@ -261,7 +412,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4">
+                <div class="col-lg-3 col-12 mt-4">
                     <div class="banner-4 rounded-1">
                         <div class="w-50 h-75 d-flex align-items-center justify-content-center">
                             <div class="">
@@ -275,7 +426,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4">
+                <div class="col-lg-3 col-12 mt-4">
                     <div class="banner-5 rounded-1">
                         <div class="w-50 h-100 d-flex justify-content-center">
                             <div class="mx-4">
@@ -296,10 +447,10 @@
             </div>
         </div>
     </section>
-    <section class="best-weekly-deals">
+    <section class="best-weekly-deals mt-4">
         <div class="container best-weekly-deals-wrapper">
             <div class="px-4 py-4">
-                <div class="d-flex align-items-center gap-4">
+                <div class="d-md-flex align-items-center gap-4">
                     <h4 class="mt-1">Best Weekly Deals</h4>
                     <div class="bg-red rounded-5 py-1 px-4">
                         <div class="d-flex align-items-center justify-content-center gap-2 text-w">
@@ -311,8 +462,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex gap-4 align-items-center">
-                    <div class="w-20">
+                <div class="d-flex gap-4 align-items-center flex-wrap">
+                    <div class="w-20 w-sm-100">
                         <div class="mt-4 deals-card-wrapper">
                             <div class="">
                                 <div class="">
@@ -407,7 +558,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-40 h-100 mt-4">
+                    <div class="w-40 h-100 mt-4 w-sm-100">
                         <div class="deals-h-custom">
                             <div class="card py-2 deals-card-middle">
                                 <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -491,8 +642,8 @@
                             </div>
                         </div> -->
                     </div>
-                    <div class="d-flex gap-4 w-40">
-                        <div class="w-50">
+                    <div class="w-40 d-md-flex gap-4 w-sm-100">
+                        <div class="w-50 w-sm-100">
                             <div class="mt-4 deals-card-wrapper">
                                 <div class="">
                                     <div class="">
@@ -590,7 +741,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="w-50">
+                        <div class="w-50 w-sm-100">
                             <div class="mt-4 deals-card-wrapper">
                                 <div class="">
                                     <div class="">
@@ -747,17 +898,17 @@
             </div>
             <div class="w-100 rounded-4 trending-search-card pt-4 px-5 mt-5">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-lg-2 col-6">
                         <h5 class="trending-search-h5 mb-0">Pre Order</h5>
                         <p class="text-light-custom fs-8 mb-0">be the first to own</p>
                         <p class="text-w">From $399</p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-5 col-6">
                         <div class="trending-search-img text-center">
                             <img src="./assets/img/home/weekly-deals/watch.png" alt="watch" class="w-75 h-100">
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6">
                         <div class="">
                             <p class="trending-search-p w-75">
                                 Opplo Watch Sport
@@ -766,7 +917,7 @@
                             <h5 class="fs-4 text-w fw-light">A healthy leap ahead</h5>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-6">
                         <div class="w-100 h-75 d-flex justify-content-end align-items-center">
                             <button class="btn bg-white border-1 rounded-5">Discover Now</button>
                         </div>
@@ -778,7 +929,7 @@
     <section class="best-seller mt-4">
         <div class="container">
             <h4 class="">Best Seller</h4>
-            <div class="d-flex align-items-center gap-3 mt-4">
+            <div class="d-flex align-items-center gap-3 mt-4 flex-wrap">
                 <div class="">
                     <button class="btn rounded-5 bg-custom text-w border-1 fs-8">Top 30</button>
                 </div>
@@ -804,8 +955,8 @@
                     <button class="btn rounded-5 bg-custom-light border-1 fs-8">Sport Equipments</button>
                 </div>
             </div>
-            <div class="d-flex align-items-center gap-4 mt-4">
-                <div class="w-20">
+            <div class="d-flex align-items-center gap-4 mt-4 flex-wrap">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -847,7 +998,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -891,7 +1042,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -935,7 +1086,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -977,7 +1128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1029,7 +1180,7 @@
                 <a class="text-decoration-none text-custom-dark fs-6">View All</a>
             </div>
             <div class="row mt-4 px-3">
-                <div class="col-4">
+                <div class="col-12 col-md-4 mt-4 mt-md-0">
                     <div class="w-100 brand-banner-1 px-4">
                         <div class="w-75 h-100 d-flex justify-content-center align-items-center">
                             <div class="">
@@ -1043,7 +1194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 mt-4 mt-md-0">
                     <div class="w-100 brand-banner-2 px-4 py-5">
                         <div class="w-50 h-100 d-flex justify-content-center align-items-center">
                             <div class="">
@@ -1060,7 +1211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 mt-4 mt-md-0">
                     <div class="w-100 brand-banner-3 px-4 py-5">
                         <div class="w-50 h-100 d-flex">
                             <div class="">
@@ -1110,7 +1261,7 @@
                 </div>
             </div>
             <div class="d-flex align-items-center flex-wrap gap-4 mt-4">
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1154,7 +1305,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1198,7 +1349,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1242,7 +1393,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1286,7 +1437,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1330,7 +1481,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1373,7 +1524,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1416,7 +1567,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1460,7 +1611,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1504,7 +1655,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1554,7 +1705,7 @@
         <div class="bg-light-bannmer py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 ">
                         <div class="">
                             <p class="text-uppercase fs-8 text-light-custom">amazon award-winning speaker</p>
                             <h4 class="">
@@ -1571,10 +1722,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 ">
                         <h4 class="">Best Selling Speakers</h4>
                         <div class="row mt-4">
-                            <div class="col-4">
+                            <div class="col-12 col-md-4">
                                 <div class="best-card-wrapper">
                                     <div class="card py-2">
                                         <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1618,7 +1769,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-12 col-md-4">
                                 <div class="best-card-wrapper">
                                     <div class="card py-2">
                                         <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1662,7 +1813,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-12 col-md-4">
                                 <div class="best-card-wrapper">
                                     <div class="card py-2">
                                         <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1714,11 +1865,11 @@
     </section>
     <section class="just-landing mt-4">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-between flex-wrap">
                 <h4 class="">Just Landing</h4>
                 <p class="">View All</p>
             </div>
-            <div class="d-flex align-items-center gap-3 mt-4">
+            <div class="d-flex align-items-center gap-3 mt-4 flex-wrap">
                 <div class="">
                     <button class="btn rounded-5 bg-custom text-w border-1 fs-8">
                         TV/Televisions
@@ -1756,7 +1907,7 @@
                 </div>
             </div>
             <div class="d-flex align-items-center flex-wrap gap-4 mt-4">
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1800,7 +1951,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1844,7 +1995,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -1888,7 +2039,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1932,7 +2083,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-20">
+                <div class="w-20 w-sm-100">
                     <div class="mt-4 best-card-wrapper">
                         <div class="card py-2">
                             <div class="d-flex align-items-center justify-content-end mt-2 px-3">
@@ -1982,7 +2133,7 @@
     <section class="seeling-landing mt-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="bg-light-bannmer py-3 px-3 rounded-3 seeling-landing-h">
                         <div class="d-flex justify-content-between align-items-center">
                             <h5 class="">Just Landing</h5>
@@ -2014,8 +2165,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="bg-light-bannmer py-3 px-3 rounded-3 seeling-landing-h">
+                <div class="col-lg-6 col-12">
+                    <div class="bg-light-bannmer py-3 px-3 rounded-3 seeling-landing-h h-100">
                         <h5 class="">Best Selling Speakers</h5>
                         <div class="card mt-4 py-3 px-3">
                             <div class="d-flex align-content-center gap-1">
@@ -2107,7 +2258,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-3">
+                <div class="col-6 col-lg-3">
                     <h6 class="fs-7">Swoo - Online Electronic Market</h6>
                     <p class="mt-4">hotline 24/7</p>
                     <p class="text-m-color fs-5">(025) 3686 25 16</p>
@@ -2134,7 +2285,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-6">
                     <h6 class="fs-7">Top Categories</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">TV/Televisions</li>
@@ -2149,7 +2300,7 @@
                         <li class="fs-8 mt-1">Smart Home</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-6">
                     <h6 class="fs-7">Company</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">About Swoo</li>
@@ -2160,7 +2311,7 @@
                         <li class="fs-8 mt-1">Store Locations</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-6">
                     <h6 class="fs-7">Help Center</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">Customer Service</li>
@@ -2172,7 +2323,7 @@
                         <li class="fs-8 mt-1">Product Support</li>
                     </ul>
                 </div>
-                <div class="col-1">
+                <div class="col-lg-1 col-6">
                     <h6 class="fs-7">Partner</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">Become Seller</li>
@@ -2186,12 +2337,12 @@
         <div class="mt-4 py-2 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="pt-3">
                             <p class="">© 2024 <b>Shawonetc3</b> . All Rights Reserved</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="d-flex align-items-center w-100 h-100 justify-content-center">
                             <div class="d-flex align-items-center gap-4">
                                 <div class="">
@@ -2212,7 +2363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="d-flex align-items-center gap-3 w-100 h-100 justify-content-end">
                             <div class="">
                                 <a href="" class="nav-link">
@@ -2234,9 +2385,9 @@
         </div>
     </footer>
 
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/owl-craousel.js"></script>
 
 </body>
 
