@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>SWOO</title>
 </head>
 
@@ -22,15 +23,40 @@
             <div class="container">
                 <div class="middle-header-wrapper">
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-6 col-4 mt-4 mt-md-0">
                             <div class="logo-wrapper">
                                 <img src="./assets/img/home/header/logo.png" alt="" class="">
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="seach-wrapper w-75">
+                        <div class="col-md-6 col-8 d-lg-none d-lg-none d-block">
+                            <div class="row">
+                                <div class="col-8 px-0">
+                                    <div class="d-flex align-items-center mt-3 mt-md-0">
+                                        <div class="cart-icon-wrapper">
+                                            <i class="fa fa-shopping-cart text-m-color"></i>
+                                        </div>
+                                        <div class="mx-2">
+                                            <p class="fs-7 mb-0">Hotline 24/7</p>
+                                            <h5 class="text-m-color fs-7 mt-0 mb-0">(025) 3686 25 16</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex align-items-center justify-content-between mt-3 mt-md-1">
+                                        <div class="dot-icon px-0">
+                                            <i class="fa fa-heart-o fs-3 text-dark"></i>
+                                        </div>
+                                        <div class="cart-icon-wrapper-2 bg-custom px-0">
+                                            <span class="text-w fs-5">2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                            <div class="seach-wrapper w-100 w-sm-100">
                                 <div class="input-group custom-input-group">
-                                    <div class="input-group-append">
+                                    <div class="input-group-append ">
                                         <select class="form-select custom-select-radius bg-custom-light">
                                             <option>All Categories</option>
                                             <option value="1">Option 1</option>
@@ -47,7 +73,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 mt-4 mt-lg-0 d-lg-block d-none d-none">
                             <div class="row">
                                 <div class="col-8">
                                     <div class="d-flex align-items-center ">
@@ -61,7 +87,7 @@
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                    <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center justify-content-between mt-3 mt-lg-0">
                                         <div class="dot-icon">
                                             <i class="fa fa-heart-o fs-3 text-dark"></i>
                                         </div>
@@ -79,8 +105,8 @@
         <div class="bottom-header bg-white-custom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <ul class="navbar-nav flex-direction-row gap-4">
+                    <div class="col-lg-5 col-12 mt-2 mt-lg-0 d-none d-lg-block">
+                        <ul class="navbar-nav flex-direction-row gap-4 justify-content-center justify-content-lg-start">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
                                     Demos
@@ -94,7 +120,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">
+                                <a href="products.html" class="nav-link">
                                     Products
                                     <i class="fa fa-angle-down text-custom-dark"></i>
                                 </a>
@@ -106,8 +132,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-7">
-                        <ul class="navbar-nav flex-direction-row gap-4 justify-content-end">
+                    <div class="col-lg-7 col-12 mt-2 mt-lg-0 d-none d-lg-block">
+                        <ul class="bottom-header-navbar navbar-nav flex-direction-row gap-4 justify-content-end w-100">
                             <li class="nav-item">
                                 <a href="" class="nav-link">
                                     <i class="fa fs-6 fa-home text-custom-dark"></i>
@@ -142,6 +168,65 @@
                         </ul>
                     </div>
                 </div>
+                <div class="d-block d-lg-none">
+                    <ul
+                        class="bottom-header-navbar navbar-nav flex-direction-row gap-4 justify-content-lg-end w-100 overflow-scroll overflow-x-sm-scroll">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Demos
+                                <i class="fa fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Pages
+                                <i class="fa fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="products.html" class="nav-link">
+                                Products
+                                <i class="fa fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fa fs-6 fa-home text-custom-dark"></i>
+                                Sell on Swoo
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fa fs-6 fa-shopping-bag text-custom-dark"></i>
+                                Order Tracking
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Recently Viewed
+                                <i class="fa fs-6 fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                USD
+                                <i class="fa fs-6 fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <img src="./assets/img/home/header/american-flag.png" alt="" class="">
+                                <span>Eng</span>
+                                <i class="fa fa-angle-down text-custom-dark"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -155,10 +240,10 @@
         </div>
     </section>
 
-    <section class="bg-white-custom py-4 mt-4">
+    <section class="bg-white-custom py-4 mt-4 h-md-custom">
         <div class="container">
-            <div class="row">
-                <div class="col-5">
+            <div class="row ">
+                <div class="col-lg-5 col-md-6 col-12 mt-4 mt-md-0 h-fit-content">
                     <div class="d-flex justify-content-between">
                         <button class="text-uppercase btn btn-dark fs-8">NEW</button>
                         <div class="cart-icon-wrapper-2 bg-custom-light pt-1">
@@ -187,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 mt-md-0">
                     <div class="">
                         <h5 class="fs-6 fw-bold">
                             Somseng Galatero X6 Ultra LTE 4G/128GB, Black
@@ -215,7 +300,7 @@
                         </h5>
                     </div>
                     <div class="row mt-4">
-                        <div class="col-4">
+                        <div class="col-4 px-1">
                             <div class="border-custom fs-8 d-flex align-items-center rounded-3 py-1 px-1">
                                 <img src="./assets/img/home/products/mobile/s-p-img-1.jpeg" alt=""
                                     class="s-p-img-select">
@@ -228,7 +313,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 px-1">
                             <div class="border-custom fs-8 d-flex align-items-center rounded-3 py-1 px-1">
                                 <img src="./assets/img/home/products/mobile/s-p-mg-2.jpeg" alt=""
                                     class="s-p-img-select">
@@ -241,7 +326,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 px-1">
                             <div class="border-custom fs-8 d-flex align-items-center rounded-3 py-1 px-1">
                                 <img src="./assets/img/home/products/mobile/s-p-img-3.jpeg" alt=""
                                     class="s-p-img-select">
@@ -326,75 +411,85 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="bg-light rounded-3 py-4 px-4">
-                        <p class="fs-6 fw-light text-light-custom">Total Price:</p>
-                        <h5 class="mb-0">$609.00</h5>
-                        <div class="d-flex flex-wrap align-items-center border-bottom">
-                            <img src="./assets/img/home/brands/affirm.png" alt="" class="mb-0 pro-aff-img">
-                            <p class="fs-8 pt-4">
-                                <span class="text-red">$49/m</span>
-                                in 12 months.
-                                <span class="text-m-color">See more</span>
-                            </p>
-                        </div>
-                        <div class="mt-4">
-                            <i class="fa fa-check bg-custom text-w rounded-full py-1 px-1 fs-8"></i>
-                            <span class="px-2">In stock</span>
-                        </div>
-                        <div class="btn-group border-1 mt-4 w-100">
-                            <button type="button" class="btn bg-white-custom">
-                                <i class="fa fa-minus"></i>
-                            </button>
-                            <button type="button" class="btn bg-white-custom">
-                                1
-                            </button>
-                            <button type="button" class="btn bg-white-custom">
-                                <i class="fa fa-plus"></i>
-                            </button>
-                        </div>
-                        <div class="mt-2">
-                            <a href="cart.html" class="btn btn-custom w-100">ADD TO CART</a>
-                        </div>
-                        <div class="mt-2">
-                            <button class="btn buy-paypal w-100">
-                                buy with
-                                <img src="./assets/img/home/payment-option/paypal-2.png" alt="" class="">
-                            </button>
-                        </div>
-                        <div class="mt-2 py-2 row">
-                            <div class="col-7">
-                                <i class="fa fa-heart text-m-color"></i>
-                                <span class="px-2 text-light-custom fs-8">Wishlist added</span>
-                            </div>
-                            <div class="col-5">
-                                <i class="fa fa-rotate-right text-light-custom"></i>
-                                <span class="px-2 text-light-custom fs-8">Compare</span>
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <h5 class="fs-6 fw-bold">Guaranteed Safe Checkout</h5>
-                            <div class="mt-4">
-                                <img src="./assets/img/home/brands/all-brands.png" alt="" class="w-100">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light rounded-3 py-4 px-4 mt-4">
+                    <div class="bg-light rounded-3 py-4 px-4 mt-4 d-lg-none d-md-block">
                         <button class="btn btn-dark">Quick Order 24/7</button>
                         <h5 class="fs-5 fw-bold mt-4">(025) 3886 25 16</h5>
                     </div>
-                    <div class="mt-4 d-flex gap-4 align-items-center">
+                    <div class="mt-4 d-flex gap-4 align-items-center d-lg-none d-md-block">
                         <i class="fa fa-truck fs-3"></i>
                         <h5 class="fs-5 fw-light">Ships from <b>United States</b></h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-4 mt-md-0">
+                    <div class="position-relative top-580">
+                        <div class="bg-light rounded-3 py-4 px-4">
+                            <p class="fs-6 fw-light text-light-custom">Total Price:</p>
+                            <h5 class="mb-0">$609.00</h5>
+                            <div class="d-flex flex-wrap align-items-center border-bottom">
+                                <img src="./assets/img/home/brands/affirm.png" alt="" class="mb-0 pro-aff-img">
+                                <p class="fs-8 pt-4">
+                                    <span class="text-red">$49/m</span>
+                                    in 12 months.
+                                    <span class="text-m-color">See more</span>
+                                </p>
+                            </div>
+                            <div class="mt-4">
+                                <i class="fa fa-check bg-custom text-w rounded-full py-1 px-1 fs-8"></i>
+                                <span class="px-2">In stock</span>
+                            </div>
+                            <div class="btn-group border-1 mt-4 w-100">
+                                <button type="button" class="btn bg-white-custom">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn bg-white-custom">
+                                    1
+                                </button>
+                                <button type="button" class="btn bg-white-custom">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="mt-2">
+                                <a href="cart.html" class="btn btn-custom w-100">ADD TO CART</a>
+                            </div>
+                            <div class="mt-2">
+                                <button class="btn buy-paypal w-100">
+                                    buy with
+                                    <img src="./assets/img/home/payment-option/paypal-2.png" alt="" class="">
+                                </button>
+                            </div>
+                            <div class="mt-2 py-2 row">
+                                <div class="col-7">
+                                    <i class="fa fa-heart text-m-color"></i>
+                                    <span class="px-2 text-light-custom fs-8">Wishlist added</span>
+                                </div>
+                                <div class="col-5">
+                                    <i class="fa fa-rotate-right text-light-custom"></i>
+                                    <span class="px-2 text-light-custom fs-8">Compare</span>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h5 class="fs-6 fw-bold">Guaranteed Safe Checkout</h5>
+                                <div class="mt-4">
+                                    <img src="./assets/img/home/brands/all-brands.png" alt="" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light rounded-3 py-4 px-4 mt-4 d-lg-block d-md-none">
+                            <button class="btn btn-dark">Quick Order 24/7</button>
+                            <h5 class="fs-5 fw-bold mt-4">(025) 3886 25 16</h5>
+                        </div>
+                        <div class="mt-4 d-flex gap-4 align-items-center d-lg-block d-md-none">
+                            <i class="fa fa-truck fs-3"></i>
+                            <h5 class="fs-5 fw-light">Ships from <b>United States</b></h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="py-4 mt-4">
+    <section class="py-4 mt-4 mt-md-2">
         <div class="container">
-            <div class="row mt-2">
+            <div class="row mt-2 mt-md-0">
                 <div class="col-9 bg-white-custom rounded-3 px-4 py-4">
                     <h5 class="text-uppercase">frequently bought together</h5>
                     <div class="row mt-4">
@@ -459,13 +554,13 @@
                         <img src="./assets/img/home/banner/sale-game.png" alt="" class="w-100 rounded-4">
                     </div>
                     <div class="mt-4 opad-single w-100 rounded-3">
-                        <div class="w-50 d-flex justify-content-center">
-                            <div class="px-4 py-4">
+                        <div class="w-50 w-sm-100 d-flex justify-content-center">
+                            <div class="px-4 py-4 ">
                                 <h5 class="text-w">
                                     oPad Pro
                                     Mini 5
                                 </h5>
-                                <div class="mt-5">
+                                <div class="mt-5 mt-md-2">
                                     <p class="fs-8 text-light-custom mb-0">from</p>
                                     <p class="fs-6 fw-light text-custom-green">$169</p>
                                 </div>
@@ -477,9 +572,9 @@
 
         </div>
     </section>
-    <section class="bg-white-custom py-4 mt-4">
+    <section class="bg-white-custom mt-4 py-4 mt-md-2">
         <div class="container">
-            <div class="d-flex justify-content-between w-50">
+            <div class="d-flex justify-content-between w-50 w-md-100 w-sm-100">
                 <h5 class="text-uppercase">description</h5>
                 <p class="fs-6 text-light-custom text-uppercase">reviews (5)</p>
                 <p class="fs-6 text-light-custom text-uppercase">additional information</p>
@@ -553,145 +648,175 @@
     <section class="bg-white-custom py-4 mt-4">
         <div class="container">
             <h5 class="text-uppercase">related products</h5>
-            <div class="d-flex align-items-center flex-wrap gap-4">
-                <div class="card border-0 mt-4 w-20">
-                    <div class="d-flex justify-content-end align-items-center top-content-categories">
-                        <div class="icon-circle bg-custom-light">
-                            <i class="fa fa-heart-o text-m-color"></i>
+            <div class="owl-slider mt-4">
+                <div id="carousel-just-landing" class="owl-carousel">
+                    <div class="">
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/spork.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
                         </div>
                     </div>
-                    <div class="cate-img-wrapper">
-                        <img src="./assets/img/home/products/mobile/spork.png" alt="" class="h-100 w-100">
-                    </div>
-                    <div class="text-heading">
-                        <p class="fs-7">
-                            SROK Smart Phone 128GB,
-                            Oled Retina
-                        </p>
-                    </div>
                     <div class="">
-                        <span class="text-red fs-6 fw-bold">$659.00</span>
-                        <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
-                    </div>
-                    <div class="mt-2">
-                        <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
-                            shipping</button>
-                    </div>
-                    <div class="mt-2">
-                        <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
-                        <span class="fs-8">In stock</span>
-                    </div>
-                </div>
-                <div class="card border-0 mt-4 w-20">
-                    <div class="d-flex justify-content-end align-items-center top-content-categories">
-                        <div class="icon-circle bg-custom-light">
-                            <i class="fa fa-heart-o text-m-color"></i>
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/m-img-1.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
                         </div>
                     </div>
-                    <div class="cate-img-wrapper">
-                        <img src="./assets/img/home/products/mobile/m-img-1.png" alt="" class="h-100 w-100">
-                    </div>
-                    <div class="text-heading">
-                        <p class="fs-7">
-                            SROK Smart Phone 128GB,
-                            Oled Retina
-                        </p>
-                    </div>
                     <div class="">
-                        <span class="text-red fs-6 fw-bold">$659.00</span>
-                        <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
-                    </div>
-                    <div class="mt-2">
-                        <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
-                            shipping</button>
-                    </div>
-                    <div class="mt-2">
-                        <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
-                        <span class="fs-8">In stock</span>
-                    </div>
-                </div>
-                <div class="card border-0 mt-4 w-20">
-                    <div class="d-flex justify-content-end align-items-center top-content-categories">
-                        <div class="icon-circle bg-custom-light">
-                            <i class="fa fa-heart-o text-m-color"></i>
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/lg-pro.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
                         </div>
                     </div>
-                    <div class="cate-img-wrapper">
-                        <img src="./assets/img/home/products/mobile/lg-pro.png" alt="" class="h-100 w-100">
-                    </div>
-                    <div class="text-heading">
-                        <p class="fs-7">
-                            SROK Smart Phone 128GB,
-                            Oled Retina
-                        </p>
-                    </div>
                     <div class="">
-                        <span class="text-red fs-6 fw-bold">$659.00</span>
-                        <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
-                    </div>
-                    <div class="mt-2">
-                        <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
-                            shipping</button>
-                    </div>
-                    <div class="mt-2">
-                        <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
-                        <span class="fs-8">In stock</span>
-                    </div>
-                </div>
-                <div class="card border-0 mt-4 w-20">
-                    <div class="d-flex justify-content-end align-items-center top-content-categories">
-                        <div class="icon-circle bg-custom-light">
-                            <i class="fa fa-heart-o text-m-color"></i>
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/m-img-1.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
                         </div>
                     </div>
-                    <div class="cate-img-wrapper">
-                        <img src="./assets/img/home/products/mobile/m-img-1.png" alt="" class="h-100 w-100">
-                    </div>
-                    <div class="text-heading">
-                        <p class="fs-7">
-                            SROK Smart Phone 128GB,
-                            Oled Retina
-                        </p>
-                    </div>
                     <div class="">
-                        <span class="text-red fs-6 fw-bold">$659.00</span>
-                        <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
-                    </div>
-                    <div class="mt-2">
-                        <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
-                            shipping</button>
-                    </div>
-                    <div class="mt-2">
-                        <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
-                        <span class="fs-8">In stock</span>
-                    </div>
-                </div>
-                <div class="card border-0 mt-4 w-20">
-                    <div class="d-flex justify-content-end align-items-center top-content-categories">
-                        <div class="icon-circle bg-custom-light">
-                            <i class="fa fa-heart-o text-m-color"></i>
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/sam-gal.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
                         </div>
                     </div>
-                    <div class="cate-img-wrapper">
-                        <img src="./assets/img/home/products/mobile/sam-gal.png" alt="" class="h-100 w-100">
-                    </div>
-                    <div class="text-heading">
-                        <p class="fs-7">
-                            SROK Smart Phone 128GB,
-                            Oled Retina
-                        </p>
-                    </div>
                     <div class="">
-                        <span class="text-red fs-6 fw-bold">$659.00</span>
-                        <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
-                    </div>
-                    <div class="mt-2">
-                        <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
-                            shipping</button>
-                    </div>
-                    <div class="mt-2">
-                        <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
-                        <span class="fs-8">In stock</span>
+                        <div class="d-flex justify-content-end align-items-center top-content-categories">
+                            <div class="icon-circle bg-custom-light">
+                                <i class="fa fa-heart-o text-m-color"></i>
+                            </div>
+                        </div>
+                        <div class="cate-img-wrapper">
+                            <img src="./assets/img/home/products/mobile/sam-gal.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="text-heading">
+                            <p class="fs-7">
+                                SROK Smart Phone 128GB,
+                                Oled Retina
+                            </p>
+                        </div>
+                        <div class="">
+                            <span class="text-red fs-6 fw-bold">$659.00</span>
+                            <span class="px-2 fs-7 fw-light"><del class="text-light-custom">$859.00</del></span>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn bg-custom-light fs-8 text-uppercase text-m-color">free
+                                shipping</button>
+                        </div>
+                        <div class="mt-2">
+                            <i class="fa fa-check bg-custom-green rounded-full text-w close-icon"></i>
+                            <span class="fs-8">In stock</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -772,25 +897,25 @@
     <footer class="bg-white">
         <div class="container mt-4">
             <div class="row">
-                <div class="col-3 py-4">
-                    <i class="fa fa-truck text-m-color fa-lg"></i>
-                    <span class="px-2">Free Shipping over $99</span>
+                <div class="col-md-3 col-6 py-md-4 px-0 d-flex flex-wrap align-items-start">
+                    <i class="fa fa-truck text-m-color fa-lg w-sm-20 mt-1"></i>
+                    <p class="px-2 w-75">Free Shipping over $99</p>
                 </div>
-                <div class="col-3 py-4">
-                    <i class="fa fa-refresh text-m-color fa-lg"></i>
-                    <span class="px-2">30 Days money back</span>
+                <div class="col-md-3 col-6 py-md-4 px-0 d-flex flex-wrap align-items-start">
+                    <i class="fa fa-refresh text-m-color fa-lg w-sm-20 mt-1"></i>
+                    <span class="px-2 w-75">30 Days money back</span>
                 </div>
-                <div class="col-3 py-4">
-                    <i class="fa fa-shield text-m-color fa-lg"></i>
-                    <span class="px-2">100% Secure Payment</span>
+                <div class="col-md-3 col-6 py-md-4 px-0 d-flex flex-wrap align-items-start">
+                    <i class="fa fa-shield text-m-color fa-lg w-sm-20 mt-1"></i>
+                    <span class="px-2 w-75">100% Secure Payment</span>
                 </div>
-                <div class="col-3 py-4">
-                    <i class="fa fa-comments text-m-color fa-lg"></i>
-                    <span class="px-2">24/7 Dedicated Support</span>
+                <div class="col-md-3 col-6 py-md-4 px-0 d-flex flex-wrap align-items-start">
+                    <i class="fa fa-comments text-m-color fa-lg w-sm-20 mt-1"></i>
+                    <span class="px-2 w-75">24/7 Dedicated Support</span>
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-3">
+                <div class="col-12 col-md-8 col-lg-3">
                     <h6 class="fs-7">Swoo - Online Electronic Market</h6>
                     <p class="mt-4">hotline 24/7</p>
                     <p class="text-m-color fs-5">(025) 3686 25 16</p>
@@ -817,7 +942,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-6 mt-md-0 mt-4">
                     <h6 class="fs-7">Top Categories</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">TV/Televisions</li>
@@ -832,7 +957,7 @@
                         <li class="fs-8 mt-1">Smart Home</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-6 mt-lg-0 mt-4">
                     <h6 class="fs-7">Company</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">About Swoo</li>
@@ -843,7 +968,7 @@
                         <li class="fs-8 mt-1">Store Locations</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-6 mt-lg-0 mt-4">
                     <h6 class="fs-7">Help Center</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">Customer Service</li>
@@ -855,7 +980,7 @@
                         <li class="fs-8 mt-1">Product Support</li>
                     </ul>
                 </div>
-                <div class="col-1">
+                <div class="col-lg-1 col-md-4 col-6 mt-lg-0 mt-4">
                     <h6 class="fs-7">Partner</h6>
                     <ul class="mt-4 list-group-custom">
                         <li class="fs-8 mt-1">Become Seller</li>
@@ -869,12 +994,12 @@
         <div class="mt-4 py-2 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="pt-3">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="pt-3 text-center">
                             <p class="">© 2024 <b>Shawonetc3</b> . All Rights Reserved</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="d-flex align-items-center w-100 h-100 justify-content-center">
                             <div class="d-flex align-items-center gap-4">
                                 <div class="">
@@ -895,8 +1020,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="d-flex align-items-center gap-3 w-100 h-100 justify-content-end">
+                    <div class="col-12 col-md-6 col-lg-4 d-md-block d-none">
+                        <div
+                            class="d-flex align-items-center gap-3 w-100 h-100 justify-content-md-end justify-content-center">
                             <div class="">
                                 <a href="" class="nav-link">
                                     USD
@@ -919,6 +1045,8 @@
 
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/owl-craousel.min.js"></script>
+    <script src="./assets/js/owl-craousel.js"></script>
 </body>
 
 </html>

@@ -34,7 +34,7 @@ initializeOwlCarousel("#carousel-selling", {
     ...commonSettings,
     responsive: {
         0: { items: 1 },
-        600: { items: 2 },
+        600: { items: 3 },
         1024: { items: 3 },
         1366: { items: 3 }
     }
@@ -43,7 +43,7 @@ initializeOwlCarousel("#carousel-best-seller", {
     ...commonSettings,
     responsive: {
         0: { items: 1 },
-        600: { items: 2 },
+        600: { items: 3 },
         1024: { items: 5 },
         1366: { items: 5 }
     }
@@ -52,8 +52,26 @@ initializeOwlCarousel("#carousel-just-landing", {
     ...commonSettings,
     responsive: {
         0: { items: 1 },
-        600: { items: 2 },
+        600: { items: 3 },
         1024: { items: 5 },
         1366: { items: 5 }
+    }
+});
+initializeOwlCarousel("#Best-selling-Speakers", {
+    ...commonSettings,
+    responsive: {
+        0: { items: 1 },
+        600: { items: 1 },
+        1024: { items: 3 },
+        1366: { items: 3 }
+    }
+});
+initializeOwlCarousel("#owl-Best-category", {
+    ...commonSettings,
+    responsive: {
+        0: { items: 1 },
+        600: { items: 2 },
+        1024: { items: 4 },
+        1366: { items: 4 }
     }
 });
