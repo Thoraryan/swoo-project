@@ -796,3 +796,13 @@ input[type="range"] {
   top: -6px;
   right: 0px;
 }
+.Products-dropdown:hover .Products-content {
+  display: block !important;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--light-color);
+}
